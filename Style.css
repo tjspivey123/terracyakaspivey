@@ -1,9 +1,13 @@
-{h1
-  color: blue;
+h1{
+  color: #ffffff
 }
+
 .container{
   background-color: Blue;
+}
 
+body {
+  background-color: Grey;
 }
 
 h1 {
@@ -11,12 +15,19 @@ h1 {
 }
 
 .navbar li{
-  display: inline;
-  background-image: url("https://www.publicdomainpictures.net/pictures/130000/velka/classic-car-black-and-white-image.jpg")
+  display: inline-block;
+  color: white;
+  margin-right: 100px;
 }
 
 .login {
   float: right;
+  border: 1px solid White;
+  background-color: White;
+  padding: 20px
+  margin-top: 5px;
+  margin-right: 5px
+  height: 20px;
 }
 
 .login a {
@@ -26,12 +37,91 @@ h1 {
   border: 1px solid #204156;
   position: relative;
 }
-
-.login a:active {
+a {
+  text-decoration: none;
+}
+.login:active {
+position: relative;
   top: 5px;
 }
 
 
 .body{
   background-color: white;
+}
+
+.navbar {
+  background-image: url("https://www.publicdomainpictures.net/pictures/130000/velka/classic-car-black-and-white-image.jpg")
+
+}
+.logo{
+  color: white;
+  border: 5px solid white;
+  font-size: 50px;
+  margin-top: 16px;
+  font-family: cursive;
+}
+.blue{
+  background-color: #FFA500;
+}
+
+.grey{
+  background-color: #FFA500;
+}
+.blue:active{
+  background-color: blue;
+}
+.grey:active{
+  background-color: grey;
+}
+.login{
+  background-color; black;
+  font-size: 20px;
+  padding: 10px
+}
+.login:active{
+  background-color: white;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:active{
+  color: white;
+}
+p{
+  font-size: 25px
+}
+.logo,
+.nav{
+  margin-top: 50px;
+  margin-left: 10px;
+}
+.link{
+  text-decoration: underline blue;
+  color:white;
+}
+footer{
+  background-color: white;
+  display: flex;
+  border: 3px solid black;
+  border-radius: 20px
+}
+footer ul,
+footer ul li{
+  display: inline-block;
+}
+.footerBar li{
+  padding: 0px 20px;
+  font-size: 20px;
+  position: relative;
+  top: 13px;
+}
+.footerLogo {
+  position: relative;
+  left: 10px;
+}
+.main{
+  padding-left: 20px
 }
