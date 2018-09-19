@@ -71,8 +71,14 @@ position: relative;
 .blue:active{
   background-color: blue;
 }
+.red{
+  background-color: #FFA500
+}
 .grey:active{
   background-color: grey;
+}
+.red:active{
+  background-color: red;
 }
 .login{
   background-color; black;
